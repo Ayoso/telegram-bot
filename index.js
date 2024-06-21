@@ -15,7 +15,8 @@ app.use(cors());
 
 let currentCoefficients = generateRandomCoefficients(); // Инициализация случайных коэффициентов
 
-// Хранение языка, выбранного пользователем
+// Хранение языка, выбранного пользо
+//вателем
 const userLanguage = {};
 
 bot.on('message', async (msg) => {
